@@ -27,15 +27,14 @@ a {
 header {
     background-color: #260178;
     width: 40rem;
-    height: 10rem;
+    height: 12rem;
     border-radius: 16px;
-    margin: 2rem;
     display: block;
 }
 
 header h1 {
-    margin-top: 2.5rem;
-    margin-left: 1rem;
+    margin-top: 3.5rem;
+    margin-left: 2rem;
     color: #ffffff;
     text-align: center;
 }
@@ -43,7 +42,15 @@ header h1 {
 header p img{
     float: right;
     margin-top: 2rem;
-    margin-right: 1rem;
+    margin-right: 3rem;
+}
+
+p span {
+    color: #000000;
+}
+
+.produtos p, h3{
+    margin-left: 1.5rem;
 }
 
 form {
@@ -85,34 +92,75 @@ form button {
     display: block;
 }
 
+form img {
+    margin-bottom: 2rem;
+}
+
 .container h1 span {
     color: #ffffff;
 }
 
-.redes-sociais img{
-    width: 4rem;
-    margin: 1rem;
-   
+h3 {
+    color: #6000EA;
 }
 
-.redes-sociais {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.minha-conta p {
-    color: #240074;
-}
 
 .produtos img {
-    width: 15rem;
-    height: 15rem;
-    margin: 1rem;
+    width: 18rem;
+    height: 18rem;
+    margin: 1.5rem;
 }
 
 .produtos {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.produtos h3 {
+    font-weight: 100;
+}
+
+.produtos p {
+    color: #AAAAAA;
+}
+
+.menu-seta p img{
+    float: right;
+}
+
+input[type=text] {
+    width: 35rem;
+    height: 4rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* webkit solution */
+  ::-webkit-input-placeholder { 
+    font-family: FontAwesome;
+    text-align:right; 
+    margin-right: 2rem;
+  }
+  /* mozilla solution */
+  input:-moz-placeholder { 
+    font-family: FontAwesome;
+    text-align:right;
+    margin-right: 2rem; 
+  }
+ 
+@media (max-width: 640px) {
+
+	header {
+        width: 35rem;
+        height: 10rem;
+        border-radius: 16px;
+        margin: 1rem;
+        display: block;
+    }
+
+    .produtos {
+        width: 70%;
+    }
+
 }

@@ -1,3 +1,5 @@
+/*menu-negocio.html*/
+
 * {
     margin: 0;
     padding: 0;
@@ -34,9 +36,7 @@ a {
 }
 
 .container {
-    text-align: center;
-    margin-top: 5rem;
-    
+    text-align: center;    
 }
 
 div.flex {
@@ -99,4 +99,15 @@ form {
     justify-content: center;
     align-items: center;
     margin: 1rem;
+}
+
+@media (max-width: 640px) {
+
+    header {
+        width: 35rem;
+        height: 10rem;
+        border-radius: 16px;
+        margin: 1rem;
+        display: block;
+    }
 }
