@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: #ffffff;
+    height: 100vh;
+}
+
+body{
+	font-size: 1.6rem;
+}
+
+figure img.logo-local-market {
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #47A3A6;
+}
+
+a {
+    text-decoration: none;
+    color: #9C9C9C;
+}
+
+.container {
+    text-align: center;
+    margin-top: 5rem;
+    
+}
+
+div.flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+button {
+    margin-bottom: 10px;
+    width: 30rem;
+    height: 5rem;
+    font-weight: bold;
+    border-radius: 16px;
+    border: 1px solid #596273 ;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgb(110, 110, 110);
+}
+
+form button {
+    display: block;
+}
+

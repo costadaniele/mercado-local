@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: #ffffff;
+    height: 100vh;
+}
+
+body{
+	font-size: 1.6rem;
+}
+
+a {
+    color: #6100EB;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header {
+    background-color: #6100EB;
+    width: 40rem;
+    height: 10rem;
+    border-radius: 16px;
+    margin: 3rem;
+    margin-bottom: 3rem;
+    display: block;
+}
+
+header h1 {
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+header p img{
+    float: right;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+input.input-text {
+    margin: auto;
+    width: 25em;
+    height: 3em;
+    border-radius: 12px;
+    border: 1px solid #596273;
+    text-indent: 30px;
+    margin-bottom: 1rem;
+}
+
+button {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    width: 20rem;
+    height: 5rem;
+    font-weight: bold;
+    border-radius: 16px;
+    color: #ffffff;
+    border: 1px solid #596273;
+    background-color: #47A3A6;
+    box-shadow: 0px 2px 5px rgb(110, 110, 110);
+}
+
+form button {
+    display: block;
+}
+
+.container h1 span {
+    color: #ffffff;
+}
+
+.redes-sociais img{
+    width: 4rem;
+    margin: 1rem;
+   
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minha-conta p {
+    color: #240074;
+}
+

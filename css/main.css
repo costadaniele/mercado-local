@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom,#240074, #6100EB);
+    height: 100vh;
+}
+
+body{
+	font-size: 1.6rem;
+}
+
+figure img.logo-local-market {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #47A3A6;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    margin-top: 5rem;
+    
+}
+
+div.flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+button {
+    margin-bottom: 10px;
+    width: 20rem;
+    height: 5rem;
+    font-weight: bold;
+    border-radius: 16px;
+    color: #ffffff;
+    border: 1px solid #596273 ;
+    background-color: #47A3A6;
+    box-shadow: 0px 2px 5px rgb(110, 110, 110);
+}
+
+form button {
+    display: block;
+}
+
+.container h1 span {
+    color: #ffffff;
+}
+
+.menu {
+    display: block;
+    width: 30rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 20rem;
+}
+
+.menu p {
+    color: #ffffff; 
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.menu p img {
+    margin-bottom: 2rem;
+}
+
+.menu .menu-seta {
+    text-align: right;
+   
+}
+
+.menu .menu-menu {
+    text-align: start;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
