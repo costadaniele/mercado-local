@@ -4,12 +4,12 @@ Projeto realizado como proposta de solução do desafio proposto pelo programa M
 
 Equipe
 
-Camila Sarinho 
-Daniele Costa 
-Jackelline Quirino 
-Jéssica Leal
-Laisa Nascimento
-Luana Passos 
-Nágila Rocha
+- Camila Sarinho 
+- Daniele Costa 
+- Jackelline Quirino 
+- Jéssica Leal
+- Laisa Nascimento
+- Luana Passos 
+- Nágila Rocha
 
-![](/img/mercado-local.gif)
+<img src="/img/mercado-local.gif" width="200px">
